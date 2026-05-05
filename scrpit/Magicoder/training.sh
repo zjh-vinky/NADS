@@ -46,7 +46,7 @@ run_name="stage3-${finetune_type}-${model_name}-${dataset_name}-${lr}-bs${global
 output_dir="${base_dir}/${run_name}"
 
 if [ "$use_validation" = "true" ]; then
-  val_ratio="0.01"
+  val_ratio="0.009"
 else
   val_ratio="0.0"
 fi
