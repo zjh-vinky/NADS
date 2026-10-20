@@ -4,7 +4,7 @@
 
 We are thrilled to announce that our paper has been accepted to the **NeurIPS Main track 2026**! Congratulations to the entire team! 🥳
 
-📄 **Paper:** [come soon](#)
+📄 **Paper:** [come soon](https://arxiv.org/pdf/2610.25751)
 
 
 Navigator-Guided Data Selection (**NADS**) is a fine-tuning pipeline for reducing catastrophic forgetting while adapting a language model to a new task. The method first trains a "navigator" on the new-task data, then uses the drift between the pretrained model and the navigator to select a diverse constraint set from a candidate pool. The final model is trained on the new task while distilling the pretrained model on the selected constraint set.
